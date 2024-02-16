@@ -58,12 +58,13 @@ pip install -r requirements.txt
 
 # Run the tool
 python analyzer.py
+```
 
 ## Usage
 
 ```bash
 # Example command
-python analyzer.py --url <URL_TO_ANALYZE>
+python app.py
 ```
 
 ## Authors

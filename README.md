@@ -37,18 +37,27 @@ Before using this tool, you need to configure API keys for VirusTotal and URLsca
 
 ![image](https://github.com/bchiek/SOCautoURLanalyzer/assets/99049187/18f8610a-727b-44eb-84e4-c7bacebba564)
 
-### Installing
-
-How to get a development environment running:
+Follow these steps to set up a development environment:
 
 ```bash
+# Clone the repository
 git clone https://github.com/bchiek/SOCautoURLanalyzer.git
 cd SOCautoURLanalyzer
+
+# Set up a Python virtual environment (make sure Python is installed, this project was built with 3.12)
+python3 -m venv venv
+
+# Activate the virtual environment
+# On Windows
+.\venv\Scripts\activate
+# On Unix or MacOS
+source venv/bin/activate
+
 # Install dependencies
 pip install -r requirements.txt
+
 # Run the tool
 python analyzer.py
-```
 
 ## Usage
 

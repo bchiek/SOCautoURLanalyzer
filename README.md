@@ -56,16 +56,9 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the tool
-python analyzer.py
 ```
 
 ## Usage
-
-```bash
-# Example command
-python app.py
-```
 
 ## Authors
 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Analysis Results</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2>URL Analysis Results</h2>
+
+    <!-- VirusTotal Results -->
+    <div class="mt-4">
+        <h3>VirusTotal</h3>
+        <p>Scan Date: {{ results.virustotal.scan_date }}</p>
+        <p>Total detections: {{ results.virustotal.positives }}</p>
+        <p><a href="{{ results.virustotal.permalink }}">View Full Report</a></p>
+    </div>
+
+<!-- Qualys SSL Labs Results -->
+<h2>Qualys SSL Labs</h2>
+    <div>
+        <p>Status: {{ results.qualys.status }}</p>
+        <p>Grade: {{ results.qualys.endpoints[0].grade}}</p>
+        <a href="https://www.ssllabs.com/ssltest/analyze.html?d={{ url }}" target="_blank">View Full Report</a>
+    </div>
+
+    <!-- URLscan Results -->
+    <div class="mt-4">
+        <h3>URLscan</h3>
+        <p>Result: {{ results.urlscan.result_message }}</p>
+        <p>Submission UUID: {{ results.urlscan.result_uuid }}</p>
+        <p><a href="https://urlscan.io/result/{{ results.urlscan.result_uuid }}">View Full Report</a></p>
+        <p>Screenshot:</p>
+        <img alt="Urlscan.io result screenshot." src="{{ results.urlscan.result_screenshot }}" />
+    </div>
+</div>
+</body>
+</html>

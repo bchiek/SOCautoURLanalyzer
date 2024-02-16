@@ -19,7 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
 pip install -r requirements.txt
 ```
 
-## API Keys Configuration
+### API Keys Configuration
 
 Before using this tool, you need to configure API keys for VirusTotal and URLscan to enable the tool to interact with these services. You will not need an API key for Qualy SSL Labs. Follow the steps below to set up your API keys:
 

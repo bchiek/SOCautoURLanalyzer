@@ -27,17 +27,15 @@ Before using this tool, you need to configure API keys for VirusTotal and URLsca
 
 1. Create an account on [VirusTotal](https://www.virustotal.com/).
 2. Navigate to your profile settings to find your API key.
-3. In the project directory, create a file named `.env` and add your VirusTotal API key as follows:
-
-VIRUSTOTAL_API_KEY=your_virustotal_api_key_here
+3. In the project directory, create a file named `.env` and add your VirusTotal API key as follows: VIRUSTOTAL_API_KEY=your_virustotal_api_key_here
 
 ### URLscan API Key
 
 1. Create an account on [URLscan](https://urlscan.io/).
 2. Navigate to your profile settings to find your API key.
-3. Add your URLscan API key to the `.env` file:
+3. Add your URLscan API key to the `.env` file: URLSCAN_API_KEY=your_urlscan_api_key_here
 
-URLSCAN_API_KEY=your_urlscan_api_key_here
+![image](https://github.com/bchiek/SOCautoURLanalyzer/assets/99049187/18f8610a-727b-44eb-84e4-c7bacebba564)
 
 ### Installing
 

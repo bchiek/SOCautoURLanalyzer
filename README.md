@@ -61,7 +61,7 @@ See also the list of [contributors](https://github.com/bchiek/SOCautoURLanalyzer
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE_FILE_LINK) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/bchiek/SOCautoURLanalyzer/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 
